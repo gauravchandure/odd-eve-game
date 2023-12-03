@@ -3,7 +3,7 @@ body {
     background-repeat: no-repeat;
     background-size: auto auto;
     overflow: hidden;
-    background-size: contain;
+    background-size: cover;
 
 }
 
