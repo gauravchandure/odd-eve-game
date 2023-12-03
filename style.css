@@ -1,0 +1,239 @@
+body {
+    background-image: url("background-img.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 110%;
+    overflow: hidden;
+
+}
+
+.main-container {
+    display: none;
+}
+
+/* hands for toss */
+#fist-T1 {
+    transform: rotate(180deg);
+    height: 300px;
+    width: 250px;
+    margin-left: 40%;
+    
+
+}
+
+#fist-T2 {
+    height: 300px;
+    width: 250px;
+    align-items: center;
+    margin-left: 500px;
+}
+/* --x--x--x--x--x--x-- */
+
+#fist-1 {
+    transform: rotate(180deg);
+    height: 300px;
+    width: 250px;
+    margin-left: 18%;
+    
+
+}
+
+#fist-2 {
+    height: 300px;
+    width: 250px;
+    align-items: center;
+    margin-left: 15%;
+}
+
+
+.num-keysA  {
+    transform: rotate(180deg);
+    margin: 0% 42%;  
+    /* 23% */
+    display: none;
+}
+
+.num-keysAT {
+    transform: rotate(180deg);
+    margin: 0% 42%;  
+    /* 23% */
+    display: none;
+}
+
+.num-keysB {
+    margin-left: 20%;
+    display: none;
+}
+
+#selectionByUser{
+    background-color: #fff;
+    width: fit-content;
+    padding: 1px 20px;
+    margin-left: 42%;
+    margin-top: 18%;
+    border: 5px solid;
+}
+
+#selectionByComp{
+    background-color: #fff;
+    width: fit-content;
+    padding: 1px 20px;
+    margin-left: 38%;
+    margin-top: 18%;
+    border: 5px solid; 
+}
+
+#halfCenturyUser{
+    background-color: #fff;
+    width: fit-content;
+    padding: 1px 20px;
+    margin-left: 38%;
+    margin-top: -25%;
+    border: 5px solid; 
+}
+
+#targetChaseUser{
+    background-color: #fff;
+    width: fit-content;
+    padding: 1px 20px;
+    margin-left: 38%;
+    margin-top: -29%;
+    border: 5px solid; 
+}
+
+#targetChaseComp{
+    background-color: #fff;
+    width: fit-content;
+    padding: 1px 20px;
+    margin-left: 38%;
+    margin-top: -29%;
+    border: 5px solid; 
+}
+
+#targetComp {
+    font-size: 17px;
+    color: white;
+    background-color: black;
+    padding: 5px 5px;
+    cursor: pointer;
+    margin-left: 28%;
+}
+
+#targetUser {
+    font-size: 17px;
+    color: white;
+    background-color: black;
+    padding: 5px 5px;
+    cursor: pointer;
+    margin-left: 23%;
+}
+
+#tie,#bowlFirstWinUser,#batFirstWinUser,#bowlFirstWinComp,#batFirstWinComp{
+    background-color: #fff;
+    width: fit-content;
+    padding: 1px 20px;
+    margin-left: 40%;
+    margin-top: -25%;
+    border: 5px solid; 
+}
+.run50-btn {
+    font-size: 17px;
+    color: white;
+    background-color: black;
+    padding: 5px 5px;
+    cursor: pointer;
+    margin-left: 0%;
+    margin-top: -25%;
+    border: 5px solid; 
+}
+
+.startGame {
+    background-color: black;
+    color: white;
+    border: 5px solid rgb(216, 202, 0);
+    font-family: 'Permanent Marker', cursive;
+
+    margin: 15% 38%; 
+    font-size: 50px; 
+    border-radius: 100%; 
+    padding: 10px 50px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.startGame:hover {
+    border: 5px solid black;
+    background-color: white; 
+    color: black; 
+    box-shadow: 0px 0px 10px 10px rgb(179, 174, 174);  
+}
+
+.toss-btn,.match-btn {
+    font-size: 40px;
+    padding: 0 5px;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.toss-btn:hover,.match-btn:hover {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+
+.odd {
+    margin: 0% 46%; 
+    font-size: 40px; 
+    border-radius: 20%; 
+    cursor: pointer; 
+    font-family: 'Permanent Marker', cursive;
+    background-color: black; 
+    color: white;
+    border: 5px solid rgb(216, 202, 0);
+
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.eve {
+    background-color:  black; 
+    color: white;
+    border: 5px solid rgb(216, 202, 0);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.odd:hover {
+    background-color: white; 
+    color: black; 
+    border: 5px solid black;
+}
+.eve:hover {
+    background-color: white; 
+    color: black;
+    border: 5px solid black;
+}
+
+.reload-btn {
+    background-color: black; 
+    color: white; 
+    font-size: 17px; 
+    padding: 5px 5px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+
+}
+.reload-btn:hover {
+    background-color: rgb(189, 184, 184); 
+    color: black; 
+    font-weight: bold;
+}
+.optTo {
+    font-size: 17px;
+    color: white;
+    background-color: black;
+    padding: 5px 5px;
+    cursor: pointer;
+}
+ .optTo:hover {
+    color: black;
+    background-color: rgb(189, 184, 184); 
+    font-weight: bold;
+
+}
