@@ -1,8 +1,9 @@
 body {
     background-image: url("background-img.jpg");
     background-repeat: no-repeat;
-    background-size: 100% 110%;
+    background-size: auto auto;
     overflow: hidden;
+    background-size: contain;
 
 }
 
