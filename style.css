@@ -1,10 +1,78 @@
 body {
     background-image: url("background-img.jpg");
     background-repeat: no-repeat;
-    background-size: 100% 110%;
+    /* background-size: 100% 110%; */
+    background-size: auto auto;
     overflow: hidden;
     background-size: cover;
 
+}
+
+.tournament-selection {
+    margin-top: 70px;
+    align-items: center;
+    text-align: center;
+}
+.tour-btn {
+    background-color:  black; 
+    color: white;
+    font-size: 40px;
+    padding: 0 30px;
+    border: 5px solid rgb(216, 202, 0);
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border-radius: 20%;
+    cursor: pointer;
+    font-family: 'Permanent Marker', cursive;
+}
+.tour-btn:hover {
+    background-color: white; 
+    color: black;
+    border: 5px solid black;
+}
+
+.tour3-btnM1,.tour5-btnM1 {
+    background-color: rgb(13, 204, 13); 
+    color: black;
+    border: 5px solid black;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 20px; 
+    border-radius: 100%; 
+    padding: 10px 50px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.tour3-btnM2,.tour3-btnM3,.tour5-btnM2,.tour5-btnM3 {
+    background-color: #685d5d; 
+    color: black;
+    border: 5px solid black;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 20px; 
+    border-radius: 100%; 
+    padding: 10px 50px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+/* .tour3-btnM1:hover {
+    background-color: rgb(0, 0, 0); 
+    color: rgb(255, 255, 255);
+    border: 5px solid black;
+}
+.tour3-btnM2:hover {
+    background-color: rgb(0, 0, 0); 
+    color: rgb(255, 255, 255);
+    border: 5px solid black;
+} */
+
+.tour3-matchContainers,.tour5-matchContainers {
+    align-items: center;
+    text-align: center;
+    background-color: #685d5d;
+    border-radius: 10%;
+    padding: 10px 0;
+    overflow: visible;
+    width: fit-content;
+    margin-left: 40%;
+    
 }
 
 .main-container {
@@ -12,7 +80,7 @@ body {
 }
 
 /* hands for toss */
-#fist-T1 {
+#fist-T1,#tour3M1fist-T1,#tour3M2fist-T1,#tour3M3fist-T1,#tour5M1fist-T1,#tour5M2fist-T1,#tour5M3fist-T1,#tour5M4fist-T1,#tour5M5fist-T1 {
     transform: rotate(180deg);
     height: 300px;
     width: 250px;
@@ -21,7 +89,7 @@ body {
 
 }
 
-#fist-T2 {
+#fist-T2,#tour3M1fist-T2,#tour3M2fist-T2,#tour3M3fist-T2,#tour5M1fist-T2,#tour5M2fist-T2,#tour5M3fist-T2,#tour5M4fist-T2,#tour5M5fist-T2 {
     height: 300px;
     width: 250px;
     align-items: center;
@@ -29,7 +97,7 @@ body {
 }
 /* --x--x--x--x--x--x-- */
 
-#fist-1 {
+#fist-1,#tour3M1fist-1,#tour3M2fist-1,#tour3M3fist-1,#tour5M1fist-1,#tour5M2fist-1,#tour5M3fist-1,#tour5M4fist-1,#tour5M5fist-1 {
     transform: rotate(180deg);
     height: 300px;
     width: 250px;
@@ -38,7 +106,7 @@ body {
 
 }
 
-#fist-2 {
+#fist-2,#tour3M1fist-2,#tour3M2fist-2,#tour3M3fist-2,#tour5M1fist-2,#tour5M2fist-2,#tour5M3fist-2,#tour5M4fist-2,#tour5M5fist-2 {
     height: 300px;
     width: 250px;
     align-items: center;
@@ -65,7 +133,8 @@ body {
     display: none;
 }
 
-#selectionByUser{
+#selectionByUser,#tour3M1selectionByUser,#tour3M2selectionByUser,#tour3M3selectionByUser,
+#tour5M1selectionByUser,#tour5M2selectionByUser,#tour5M3selectionByUser,#tour5M4selectionByUser,#tour5M5selectionByUser{
     background-color: #fff;
     width: fit-content;
     padding: 1px 20px;
@@ -74,7 +143,8 @@ body {
     border: 5px solid;
 }
 
-#selectionByComp{
+#selectionByComp,#tour3M1selectionByComp,#tour3M2selectionByComp,#tour3M3selectionByComp,
+#tour5M1selectionByComp,#tour5M2selectionByComp,#tour5M3selectionByComp,#tour5M4selectionByComp,#tour5M5selectionByComp{
     background-color: #fff;
     width: fit-content;
     padding: 1px 20px;
@@ -92,7 +162,8 @@ body {
     border: 5px solid; 
 }
 
-#targetChaseUser{
+#targetChaseUser,#tour3M1targetChaseUser,#tour3M2targetChaseUser,#tour3M3targetChaseUser,
+#tour5M1targetChaseUser,#tour5M2targetChaseUser,#tour5M3targetChaseUser,#tour5M4targetChaseUser,#tour5M5targetChaseUser{
     background-color: #fff;
     width: fit-content;
     padding: 1px 20px;
@@ -101,7 +172,8 @@ body {
     border: 5px solid; 
 }
 
-#targetChaseComp{
+#targetChaseComp,#tour3M1targetChaseComp,#tour3M2targetChaseComp,#tour3M3targetChaseComp,
+#tour5M1targetChaseComp,#tour5M2targetChaseComp,#tour5M3targetChaseComp,#tour5M4targetChaseComp,#tour5M5targetChaseComp{
     background-color: #fff;
     width: fit-content;
     padding: 1px 20px;
@@ -110,7 +182,8 @@ body {
     border: 5px solid; 
 }
 
-#targetComp {
+#targetComp,#tour3M1targetComp,#tour3M2targetComp,#tour3M3targetComp,
+#tour5M1targetComp,#tour5M2targetComp,#tour5M3targetComp,#tour5M4targetComp,#tour5M5targetComp {
     font-size: 17px;
     color: white;
     background-color: black;
@@ -119,7 +192,8 @@ body {
     margin-left: 28%;
 }
 
-#targetUser {
+#targetUser,#tour3M1targetUser,#tour3M2targetUser,#tour3M3targetUser,
+#tour5M1targetUser,#tour5M2targetUser,#tour5M3targetUser,#tour5M4targetUser,#tour5M5targetUser {
     font-size: 17px;
     color: white;
     background-color: black;
@@ -128,13 +202,29 @@ body {
     margin-left: 23%;
 }
 
-#tie,#bowlFirstWinUser,#batFirstWinUser,#bowlFirstWinComp,#batFirstWinComp{
+#tie,#bowlFirstWinUser,#batFirstWinUser,#bowlFirstWinComp,#batFirstWinComp,
+#tour3M1tie,#tour3M1bowlFirstWinUser,#tour3M1batFirstWinUser,#tour3M1bowlFirstWinComp,#tour3M1batFirstWinComp,
+#tour3M2tie,#tour3M2bowlFirstWinUser,#tour3M2batFirstWinUser,#tour3M2bowlFirstWinComp,#tour3M2batFirstWinComp,
+#tour3M3tie,#tour3M3bowlFirstWinUser,#tour3M3batFirstWinUser,#tour3M3bowlFirstWinComp,#tour3M3batFirstWinComp,
+#tour5M1tie,#tour5M1bowlFirstWinUser,#tour5M1batFirstWinUser,#tour5M1bowlFirstWinComp,#tour5M1batFirstWinComp,
+#tour5M2tie,#tour5M2bowlFirstWinUser,#tour5M2batFirstWinUser,#tour5M2bowlFirstWinComp,#tour5M2batFirstWinComp,
+#tour5M3tie,#tour5M3bowlFirstWinUser,#tour5M3batFirstWinUser,#tour5M3bowlFirstWinComp,#tour5M3batFirstWinComp,
+#tour5M4tie,#tour5M4bowlFirstWinUser,#tour5M4batFirstWinUser,#tour5M4bowlFirstWinComp,#tour5M4batFirstWinComp,
+#tour5M5tie,#tour5M5bowlFirstWinUser,#tour5M5batFirstWinUser,#tour5M5bowlFirstWinComp,#tour5M5batFirstWinComp{
     background-color: #fff;
     width: fit-content;
     padding: 1px 20px;
     margin-left: 40%;
     margin-top: -25%;
     border: 5px solid; 
+}
+#tour3return,#tour3return1,#tour5M3return,#tour5M4return,#tour5M5return{
+    background-color: #fff;
+    width: fit-content;
+    padding: 1px 20px;
+    margin-left: 40%;
+    margin-top: -16%;
+    border: 5px solid;
 }
 .run50-btn {
     font-size: 17px;
