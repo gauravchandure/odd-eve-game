@@ -1,7 +1,23 @@
+function tourStart() {
+    document.getElementById("start-intro").style.display = "block";
+    document.getElementById("tour-selection").style.display = "none";
+}
+
+function tour5Start() {
+    document.getElementById("start-intro").style.display = "block";
+    document.getElementById("tour-selection").style.display = "none";
+}
+
+/* START TOURNAMENT */
+
+
+
+
 /* START THE GAME */
 
+
 function start() {
-    console.log("hello");
+    //console.log()("hello");
     //document.getElementById("main-container").style.display = "block";
     document.getElementById("toss").style.display = "block";
     document.getElementById("start").style.display = "none";
@@ -10,11 +26,12 @@ function start() {
 }
 
 /* TOSS START */
+let x = Math.floor(Math.random() * 6) + 1;
 
-var odd1 = document.getElementById('odd');
-odd1.onclick = odd;
+// var odd1 = document.getElementById('odd');
+// odd1.onclick = odd;
 
-function odd() {
+function OddStart() {
     document.getElementById("toss").style.display = "none";
     document.getElementById("fist-T1").style.display = "block";
     document.getElementById("fist-T2").style.display = "block";
@@ -34,10 +51,10 @@ function odd() {
     rt6.onclick = OddRT6;
 }
 
-var eve1 = document.getElementById('eve');
-eve1.onclick = eve;
+// var eve1 = document.getElementById('eve');
+// eve1.onclick = eve;
 
-function eve() {
+function EveStart() {
     document.getElementById("toss").style.display = "none";
     document.getElementById("fist-T1").style.display = "block";
     document.getElementById("fist-T2").style.display = "block";
@@ -83,10 +100,10 @@ function forOdd1() {
         document.getElementById("compOpt").innerText = selectedopt;
         var selected = 'Bat';
         if (selectedopt.includes(selected)) {
-            // console.log(`bat selected`);
+            // //console.log()(`bat selected`);
             matchStartBowl();
         } else {
-            // console.log('bowl selected');
+            // //console.log()('bowl selected');
             matchStartBat();
         }
     }
@@ -114,10 +131,10 @@ function forOdd2() {
         document.getElementById("compOpt").innerText = selectedopt;
         var selected = 'Bat';
         if (selectedopt.includes(selected)) {
-            // console.log(`bat selected`);
+            // //console.log()(`bat selected`);
             matchStartBowl();
         } else {
-            // console.log('bowl selected');
+            // //console.log()('bowl selected');
             matchStartBat();
         }
     }
@@ -146,10 +163,10 @@ function forEve1() {
         document.getElementById("compOpt").innerText = selectedopt;
         var selected = 'Bat';
         if (selectedopt.includes(selected)) {
-            // console.log(`bat selected`);
+            // //console.log()(`bat selected`);
             matchStartBowl();
         } else {
-            // console.log('bowl selected');
+            // //console.log()('bowl selected');
             matchStartBat();
         }
     }
@@ -178,17 +195,16 @@ function forEve2() {
         document.getElementById("compOpt").innerText = selectedopt;
         var selected = 'Bat';
         if (selectedopt.includes(selected)) {
-            // console.log(`bat selected`);
+            // //console.log()(`bat selected`);
             matchStartBowl();
         } else {
-            // console.log('bowl selected');
+            // //console.log()('bowl selected');
             matchStartBat();
         }
     }
 }
 
-let x = Math.floor(Math.random() * 6) + 1;
-console.log(x);
+//console.log()(x);
 
 // If user chose odd
 function OddRT1() {
@@ -200,7 +216,7 @@ function OddRT1() {
     document.getElementById("num-TB4").style.display = "none";
     document.getElementById("num-TB5").style.display = "none";
     document.getElementById("num-TB6").style.display = "none";
-    console.log(x);
+    //console.log()(x);
     setTimeout(function () {
 
         forOdd1();
@@ -663,7 +679,7 @@ function EveRT1() {
     document.getElementById("num-TB4").style.display = "none";
     document.getElementById("num-TB5").style.display = "none";
     document.getElementById("num-TB6").style.display = "none";
-    console.log(x);
+    //console.log()(x);
     setTimeout(function () {
 
         forEve1();
@@ -749,7 +765,7 @@ function EveRT2() {
     document.getElementById("num-TB4").style.display = "none";
     document.getElementById("num-TB5").style.display = "none";
     document.getElementById("num-TB6").style.display = "none";
-    console.log(x);
+    //console.log()(x);
     setTimeout(function () {
 
         forEve2();
@@ -835,7 +851,7 @@ function EveRT3() {
     document.getElementById("num-TB4").style.display = "none";
     document.getElementById("num-TB5").style.display = "none";
     document.getElementById("num-TB6").style.display = "none";
-    console.log(x);
+    //console.log()(x);
     setTimeout(function () {
 
         forEve1();
@@ -921,7 +937,7 @@ function EveRT4() {
     document.getElementById("num-TB4").style.display = "block";
     document.getElementById("num-TB5").style.display = "none";
     document.getElementById("num-TB6").style.display = "none";
-    console.log(x);
+    //console.log()(x);
     setTimeout(function () {
 
         forEve2();
@@ -1007,7 +1023,7 @@ function EveRT5() {
     document.getElementById("num-TB4").style.display = "none";
     document.getElementById("num-TB5").style.display = "block";
     document.getElementById("num-TB6").style.display = "none";
-    console.log(x);
+    //console.log()(x);
     setTimeout(function () {
 
         forEve1();
@@ -1093,7 +1109,7 @@ function EveRT6() {
     document.getElementById("num-TB4").style.display = "none";
     document.getElementById("num-TB5").style.display = "none";
     document.getElementById("num-TB6").style.display = "block";
-    console.log(x);
+    //console.log()(x);
     setTimeout(function () {
 
         forEve2();
@@ -2912,12 +2928,12 @@ function batFirst() {
     r6.onclick = batFirstR6;
 }
 
-let runtextUser = document.getElementById('userRun').innerText;
-var halfCentury = false;
-if (runtextUser >= 50 && halfCentury == false) {
-    document.getElementById("halfCenturyUser").style.display = "block";
-    halfCentury == true;
-}
+// let runtextUser = document.getElementById('userRun').innerText;
+// var halfCentury = false;
+// if (runtextUser >= 50 && halfCentury == false) {
+//     document.getElementById("halfCenturyUser").style.display = "block";
+//     halfCentury == true;
+// }
 
 function batFirstR1() {
     let x = Math.floor(Math.random() * 6) + 1;
