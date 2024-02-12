@@ -4905,6 +4905,4 @@ function tour3M1nextMatch() {
 
 }
 
-// function btnClose() {
-//     document.getElementById("halfCenturyUser").style.display = "none";
-// }
+
