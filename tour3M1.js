@@ -1850,8 +1850,8 @@ function tour3M1batSecondR1() {
                 document.getElementById("tour3M1R6").disabled = true;
                 document.getElementById("tour3M1winner-container").style.display = "block";
                 document.getElementById('tour3M1winner').textContent = "You Won By 1 Wicket";
-                var updatedValueuser = tour3userpoints++;
-                localStorage.setItem('User Points', updatedValueuser);
+                tour3userpoints++;
+                
             }, 1000);
         } else if (tour3M1compScore == tour3M1userScore) { //If runs are equal
             setTimeout(function () {
@@ -1883,7 +1883,7 @@ function tour3M1batSecondR1() {
                 document.getElementById("tour3M1winner-container").style.display = "block";
                 document.getElementById('tour3M1winner').textContent = "Opponent Won By " + (tour3M1runToChaseComp - tour3M1userScore) + " Runs";
                 tour3comppoints++;
-                //localStorage.setItem('Computer Points', updatedValuecomp);
+                
             }, 1000);
         }
 
@@ -1909,8 +1909,8 @@ function tour3M1batSecondR1() {
                 document.getElementById("tour3M1main-container").style.filter = 'blur(5px)';
                 document.getElementById("tour3M1winner-container").style.display = "block";
                 document.getElementById('tour3M1winner').textContent = "You Won By 1 Wicket";
-                var updatedValueuser = tour3userpoints++;
-                localStorage.setItem('User Points', updatedValueuser);
+                tour3userpoints++;
+                
             }, 1000);
         }
 
@@ -1941,8 +1941,8 @@ function tour3M1batSecondR1() {
                 document.getElementById("tour3M1main-container").style.filter = 'blur(5px)';
                 document.getElementById("tour3M1winner-container").style.display = "block";
                 document.getElementById('tour3M1winner').textContent = "You Won By 1 Wicket";
-                var updatedValueuser = tour3userpoints++;
-                localStorage.setItem('User Points', updatedValueuser);
+                tour3userpoints++;
+                
             }, 1000);
         }
     }
@@ -1972,8 +1972,8 @@ function tour3M1batSecondR1() {
                 document.getElementById("tour3M1main-container").style.filter = 'blur(5px)';
                 document.getElementById("tour3M1winner-container").style.display = "block";
                 document.getElementById('tour3M1winner').textContent = "You Won By 1 Wicket";
-                var updatedValueuser = tour3userpoints++;
-                localStorage.setItem('User Points', updatedValueuser);
+                tour3userpoints++;
+                
             }, 1000);
         }
     }
@@ -2003,8 +2003,8 @@ function tour3M1batSecondR1() {
                 document.getElementById("tour3M1main-container").style.filter = 'blur(5px)';
                 document.getElementById("tour3M1winner-container").style.display = "block";
                 document.getElementById('tour3M1winner').textContent = "You Won By 1 Wicket";
-                var updatedValueuser = tour3userpoints++;
-                localStorage.setItem('User Points', updatedValueuser);
+                tour3userpoints++;
+                
             }, 1000);
         }
     }
@@ -2029,8 +2029,8 @@ function tour3M1batSecondR1() {
                 document.getElementById("tour3M1main-container").style.filter = 'blur(5px)';
                 document.getElementById("tour3M1winner-container").style.display = "block";
                 document.getElementById('tour3M1winner').textContent = "You Won By 1 Wicket";
-                var updatedValueuser = tour3userpoints++;
-                localStorage.setItem('User Points', updatedValueuser);
+                tour3userpoints++;
+                
             }, 1000);
         }
     }
@@ -2069,8 +2069,8 @@ function tour3M1batSecondR2() {
                 document.getElementById("tour3M1main-container").style.filter = 'blur(5px)';
                 document.getElementById("tour3M1winner-container").style.display = "block";
                 document.getElementById('tour3M1winner').textContent = "You Won By 1 Wicket";
-                var updatedValueuser = tour3userpoints++;
-                localStorage.setItem('User Points', updatedValueuser);
+                tour3userpoints++;
+                
             }, 1000);
         }
     }
@@ -2098,8 +2098,8 @@ function tour3M1batSecondR2() {
                 document.getElementById("tour3M1R6").disabled = true;
                 document.getElementById("tour3M1winner-container").style.display = "block";
                 document.getElementById('tour3M1winner').textContent = "You Won By 1 Wicket";
-                var updatedValueuser = tour3userpoints++;
-                localStorage.setItem('User Points', updatedValueuser);
+                tour3userpoints++;
+                
             }, 1000);
         } else if (tour3M1compScore == tour3M1userScore) { //If runs are equal
             setTimeout(function () {
@@ -2131,7 +2131,7 @@ function tour3M1batSecondR2() {
                 document.getElementById("tour3M1winner-container").style.display = "block";
                 document.getElementById('tour3M1winner').textContent = "Opponent Won By " + (tour3M1runToChaseComp - tour3M1userScore) + " Runs";
                 tour3comppoints++;
-                //localStorage.setItem('Computer Points', updatedValuecomp);
+                
             }, 1000);
         }
 
@@ -2158,8 +2158,8 @@ function tour3M1batSecondR2() {
                 document.getElementById("tour3M1main-container").style.filter = 'blur(5px)';
                 document.getElementById("tour3M1winner-container").style.display = "block";
                 document.getElementById('tour3M1winner').textContent = "You Won By 1 Wicket";
-                var updatedValueuser = tour3userpoints++;
-                localStorage.setItem('User Points', updatedValueuser);
+                tour3userpoints++;
+                
             }, 1000);
         }
     }
@@ -2183,8 +2183,8 @@ function tour3M1batSecondR2() {
             document.getElementById("tour3M1main-container").style.filter = 'blur(5px)';
             document.getElementById("tour3M1winner-container").style.display = "block";
             document.getElementById('tour3M1winner').textContent = "You Won By 1 Wicket";
-            var updatedValueuser = tour3userpoints++;
-            localStorage.setItem('User Points', updatedValueuser);
+            tour3userpoints++;
+            
         }
     }
     else if (x == 5) {
@@ -2208,8 +2208,8 @@ function tour3M1batSecondR2() {
                 document.getElementById("tour3M1main-container").style.filter = 'blur(5px)';
                 document.getElementById("tour3M1winner-container").style.display = "block";
                 document.getElementById('tour3M1winner').textContent = "You Won By 1 Wicket";
-                var updatedValueuser = tour3userpoints++;
-                localStorage.setItem('User Points', updatedValueuser);
+                tour3userpoints++;
+                
             }, 1000);
         }
     }
@@ -2234,8 +2234,8 @@ function tour3M1batSecondR2() {
                 document.getElementById("tour3M1main-container").style.filter = 'blur(5px)';
                 document.getElementById("tour3M1winner-container").style.display = "block";
                 document.getElementById('tour3M1winner').textContent = "You Won By 1 Wicket";
-                var updatedValueuser = tour3userpoints++;
-                localStorage.setItem('User Points', updatedValueuser);
+                tour3userpoints++;
+                
             }, 1000);
         }
     }
@@ -2274,8 +2274,8 @@ function tour3M1batSecondR3() {
                 document.getElementById("tour3M1main-container").style.filter = 'blur(5px)';
                 document.getElementById("tour3M1winner-container").style.display = "block";
                 document.getElementById('tour3M1winner').textContent = "You Won By 1 Wicket";
-                var updatedValueuser = tour3userpoints++;
-                localStorage.setItem('User Points', updatedValueuser);
+                tour3userpoints++;
+                
             }, 1000);
         }
     }
@@ -2300,8 +2300,8 @@ function tour3M1batSecondR3() {
                 document.getElementById("tour3M1main-container").style.filter = 'blur(5px)';
                 document.getElementById("tour3M1winner-container").style.display = "block";
                 document.getElementById('tour3M1winner').textContent = "You Won By 1 Wicket";
-                var updatedValueuser = tour3userpoints++;
-                localStorage.setItem('User Points', updatedValueuser);
+                tour3userpoints++;
+                
             }, 1000);
         }
 
@@ -2331,8 +2331,8 @@ function tour3M1batSecondR3() {
                 document.getElementById("tour3M1R6").disabled = true;
                 document.getElementById("tour3M1winner-container").style.display = "block";
                 document.getElementById('tour3M1winner').textContent = "You Won By 1 Wicket";
-                var updatedValueuser = tour3userpoints++;
-                localStorage.setItem('User Points', updatedValueuser);
+                tour3userpoints++;
+                
             }, 1000);
         } else if (tour3M1compScore == tour3M1userScore) { //If runs are equal
             setTimeout(function () {
@@ -2364,7 +2364,7 @@ function tour3M1batSecondR3() {
                 document.getElementById("tour3M1winner-container").style.display = "block";
                 document.getElementById('tour3M1winner').textContent = "Opponent Won By " + (tour3M1runToChaseComp - tour3M1userScore) + " Runs";
                 tour3comppoints++;
-                //localStorage.setItem('Computer Points', updatedValuecomp);
+                
             }, 1000);
         }
 
@@ -2390,8 +2390,8 @@ function tour3M1batSecondR3() {
                 document.getElementById("tour3M1main-container").style.filter = 'blur(5px)';
                 document.getElementById("tour3M1winner-container").style.display = "block";
                 document.getElementById('tour3M1winner').textContent = "You Won By 1 Wicket";
-                var updatedValueuser = tour3userpoints++;
-                localStorage.setItem('User Points', updatedValueuser);
+                tour3userpoints++;
+                
             }, 1000);
         }
     }
@@ -2416,8 +2416,8 @@ function tour3M1batSecondR3() {
                 document.getElementById("tour3M1main-container").style.filter = 'blur(5px)';
                 document.getElementById("tour3M1winner-container").style.display = "block";
                 document.getElementById('tour3M1winner').textContent = "You Won By 1 Wicket";
-                var updatedValueuser = tour3userpoints++;
-                localStorage.setItem('User Points', updatedValueuser);
+                tour3userpoints++;
+                
             }, 1000);
         }
     }
@@ -2441,8 +2441,8 @@ function tour3M1batSecondR3() {
                 document.getElementById("tour3M1bowlFirstWinUser").style.display = "block";
                 document.getElementById("tour3M1winner-container").style.display = "block";
                 document.getElementById('tour3M1winner').textContent = "You Won By 1 Wicket";
-                var updatedValueuser = tour3userpoints++;
-                localStorage.setItem('User Points', updatedValueuser);
+                tour3userpoints++;
+                
             }, 1000);
         }
     }
@@ -2481,8 +2481,8 @@ function tour3M1batSecondR4() {
                 document.getElementById("tour3M1main-container").style.filter = 'blur(5px)';
                 document.getElementById("tour3M1winner-container").style.display = "block";
                 document.getElementById('tour3M1winner').textContent = "You Won By 1 Wicket";
-                var updatedValueuser = tour3userpoints++;
-                localStorage.setItem('User Points', updatedValueuser);
+                tour3userpoints++;
+                
             }, 1000);
         }
     }
@@ -2508,8 +2508,8 @@ function tour3M1batSecondR4() {
                 document.getElementById("tour3M1main-container").style.filter = 'blur(5px)';
                 document.getElementById("tour3M1winner-container").style.display = "block";
                 document.getElementById('tour3M1winner').textContent = "You Won By 1 Wicket";
-                var updatedValueuser = tour3userpoints++;
-                localStorage.setItem('User Points', updatedValueuser);
+                tour3userpoints++;
+                
             }, 1000);
         }
 
@@ -2536,8 +2536,8 @@ function tour3M1batSecondR4() {
                 document.getElementById("tour3M1main-container").style.filter = 'blur(5px)';
                 document.getElementById("tour3M1winner-container").style.display = "block";
                 document.getElementById('tour3M1winner').textContent = "You Won By 1 Wicket";
-                var updatedValueuser = tour3userpoints++;
-                localStorage.setItem('User Points', updatedValueuser);
+                tour3userpoints++;
+                
             }, 1000);
         }
 
@@ -2566,8 +2566,8 @@ function tour3M1batSecondR4() {
                 document.getElementById("tour3M1R6").disabled = true;
                 document.getElementById("tour3M1winner-container").style.display = "block";
                 document.getElementById('tour3M1winner').textContent = "You Won By 1 Wicket";
-                var updatedValueuser = tour3userpoints++;
-                localStorage.setItem('User Points', updatedValueuser);
+                tour3userpoints++;
+                
             }, 1000);
         } else if (tour3M1compScore == tour3M1userScore) { //If runs are equal
             setTimeout(function () {
@@ -2599,7 +2599,7 @@ function tour3M1batSecondR4() {
                 document.getElementById("tour3M1winner-container").style.display = "block";
                 document.getElementById('tour3M1winner').textContent = "Opponent Won By " + (tour3M1runToChaseComp - tour3M1userScore) + " Runs";
                 tour3comppoints++;
-                //localStorage.setItem('Computer Points', updatedValuecomp);
+                
             }, 1000);
         }
 
@@ -2625,8 +2625,8 @@ function tour3M1batSecondR4() {
                 document.getElementById("tour3M1main-container").style.filter = 'blur(5px)';
                 document.getElementById("tour3M1winner-container").style.display = "block";
                 document.getElementById('tour3M1winner').textContent = "You Won By 1 Wicket";
-                var updatedValueuser = tour3userpoints++;
-                localStorage.setItem('User Points', updatedValueuser);
+                tour3userpoints++;
+                
             }, 1000);
         }
     }
@@ -2651,8 +2651,8 @@ function tour3M1batSecondR4() {
                 document.getElementById("tour3M1main-container").style.filter = 'blur(5px)';
                 document.getElementById("tour3M1winner-container").style.display = "block";
                 document.getElementById('tour3M1winner').textContent = "You Won By 1 Wicket";
-                var updatedValueuser = tour3userpoints++;
-                localStorage.setItem('User Points', updatedValueuser);
+                tour3userpoints++;
+                
             }, 1000);
         }
     }
@@ -2691,8 +2691,8 @@ function tour3M1batSecondR5() {
                 document.getElementById("tour3M1main-container").style.filter = 'blur(5px)';
                 document.getElementById("tour3M1winner-container").style.display = "block";
                 document.getElementById('tour3M1winner').textContent = "You Won By 1 Wicket";
-                var updatedValueuser = tour3userpoints++;
-                localStorage.setItem('User Points', updatedValueuser);
+                tour3userpoints++;
+                
             }, 1000);
         }
     }
@@ -2717,8 +2717,8 @@ function tour3M1batSecondR5() {
                 document.getElementById("tour3M1main-container").style.filter = 'blur(5px)';
                 document.getElementById("tour3M1winner-container").style.display = "block";
                 document.getElementById('tour3M1winner').textContent = "You Won By 1 Wicket";
-                var updatedValueuser = tour3userpoints++;
-                localStorage.setItem('User Points', updatedValueuser);
+                tour3userpoints++;
+                
             }, 1000);
         }
 
@@ -2745,8 +2745,8 @@ function tour3M1batSecondR5() {
                 document.getElementById("tour3M1main-container").style.filter = 'blur(5px)';
                 document.getElementById("tour3M1winner-container").style.display = "block";
                 document.getElementById('tour3M1winner').textContent = "You Won By 1 Wicket";
-                var updatedValueuser = tour3userpoints++;
-                localStorage.setItem('User Points', updatedValueuser);
+                tour3userpoints++;
+                
             }, 1000);
         }
 
@@ -2772,8 +2772,8 @@ function tour3M1batSecondR5() {
                 document.getElementById("tour3M1main-container").style.filter = 'blur(5px)';
                 document.getElementById("tour3M1winner-container").style.display = "block";
                 document.getElementById('tour3M1winner').textContent = "You Won By 1 Wicket";
-                var updatedValueuser = tour3userpoints++;
-                localStorage.setItem('User Points', updatedValueuser);
+                tour3userpoints++;
+                
             }, 1000);
         }
 
@@ -2802,8 +2802,8 @@ function tour3M1batSecondR5() {
                 document.getElementById("tour3M1R6").disabled = true;
                 document.getElementById("tour3M1winner-container").style.display = "block";
                 document.getElementById('tour3M1winner').textContent = "You Won By 1 Wicket";
-                var updatedValueuser = tour3userpoints++;
-                localStorage.setItem('User Points', updatedValueuser);
+                tour3userpoints++;
+                
             }, 1000);
         } else if (tour3M1compScore == tour3M1userScore) { //If runs are equal
             setTimeout(function () {
@@ -2835,7 +2835,7 @@ function tour3M1batSecondR5() {
                 document.getElementById("tour3M1winner-container").style.display = "block";
                 document.getElementById('tour3M1winner').textContent = "Opponent Won By " + (tour3M1runToChaseComp - tour3M1userScore) + " Runs";
                 tour3comppoints++;
-                //localStorage.setItem('Computer Points', updatedValuecomp);
+                
             }, 1000);
         }
 
@@ -2861,8 +2861,8 @@ function tour3M1batSecondR5() {
                 document.getElementById("tour3M1main-container").style.filter = 'blur(5px)';
                 document.getElementById("tour3M1winner-container").style.display = "block";
                 document.getElementById('tour3M1winner').textContent = "You Won By 1 Wicket";
-                var updatedValueuser = tour3userpoints++;
-                localStorage.setItem('User Points', updatedValueuser);
+                tour3userpoints++;
+                
             }, 1000);
         }
     }
@@ -2901,8 +2901,8 @@ function tour3M1batSecondR6() {
                 document.getElementById("tour3M1main-container").style.filter = 'blur(5px)';
                 document.getElementById("tour3M1winner-container").style.display = "block";
                 document.getElementById('tour3M1winner').textContent = "You Won By 1 Wicket";
-                var updatedValueuser = tour3userpoints++;
-                localStorage.setItem('User Points', updatedValueuser);
+                tour3userpoints++;
+                
             }, 1000);
         }
     }
@@ -2927,8 +2927,8 @@ function tour3M1batSecondR6() {
                 document.getElementById("tour3M1main-container").style.filter = 'blur(5px)';
                 document.getElementById("tour3M1winner-container").style.display = "block";
                 document.getElementById('tour3M1winner').textContent = "You Won By 1 Wicket";
-                var updatedValueuser = tour3userpoints++;
-                localStorage.setItem('User Points', updatedValueuser);
+                tour3userpoints++;
+                
             }, 1000);
         }
 
@@ -2955,8 +2955,8 @@ function tour3M1batSecondR6() {
                 document.getElementById("tour3M1main-container").style.filter = 'blur(5px)';
                 document.getElementById("tour3M1winner-container").style.display = "block";
                 document.getElementById('tour3M1winner').textContent = "You Won By 1 Wicket";
-                var updatedValueuser = tour3userpoints++;
-                localStorage.setItem('User Points', updatedValueuser);
+                tour3userpoints++;
+                
             }, 1000);
         }
 
@@ -2982,8 +2982,8 @@ function tour3M1batSecondR6() {
                 document.getElementById("tour3M1main-container").style.filter = 'blur(5px)';
                 document.getElementById("tour3M1winner-container").style.display = "block";
                 document.getElementById('tour3M1winner').textContent = "You Won By 1 Wicket";
-                var updatedValueuser = tour3userpoints++;
-                localStorage.setItem('User Points', updatedValueuser);
+                tour3userpoints++;
+                
             }, 1000);
         }
 
@@ -3009,8 +3009,8 @@ function tour3M1batSecondR6() {
                 document.getElementById("tour3M1main-container").style.filter = 'blur(5px)';
                 document.getElementById("tour3M1winner-container").style.display = "block";
                 document.getElementById('tour3M1winner').textContent = "You Won By 1 Wicket";
-                var updatedValueuser = tour3userpoints++;
-                localStorage.setItem('User Points', updatedValueuser);
+                tour3userpoints++;
+                
             }, 1000);
         }
 
@@ -3039,8 +3039,8 @@ function tour3M1batSecondR6() {
                 document.getElementById("tour3M1R6").disabled = true;
                 document.getElementById("tour3M1winner-container").style.display = "block";
                 document.getElementById('tour3M1winner').textContent = "You Won By 1 Wicket";
-                var updatedValueuser = tour3userpoints++;
-                localStorage.setItem('User Points', updatedValueuser);
+                tour3userpoints++;
+                
             }, 1000);
         } else if (tour3M1compScore == tour3M1userScore) { //If runs are equal
             setTimeout(function () {
@@ -3072,7 +3072,7 @@ function tour3M1batSecondR6() {
                 document.getElementById("tour3M1winner-container").style.display = "block";
                 document.getElementById('tour3M1winner').textContent = "Opponent Won By " + (tour3M1runToChaseComp - tour3M1userScore) + " Runs";
                 tour3comppoints++;
-                //localStorage.setItem('Computer Points', updatedValuecomp);
+                
             }, 1000);
         }
 
@@ -3702,7 +3702,7 @@ function tour3M1bowlSecondR1() {
                 document.getElementById("tour3M1winner-container").style.display = "block";
                 document.getElementById('tour3M1winner').textContent = "Opponent Won By 1 Wicket";
                 tour3comppoints++;
-                //localStorage.setItem('Computer Points', updatedValuecomp);
+                
             }, 1000);
         } else if (tour3M1userScore == tour3M1compScore) {               //If runs are equal
             setTimeout(function () {
@@ -3733,8 +3733,8 @@ function tour3M1bowlSecondR1() {
                 document.getElementById("tour3M1R6").disabled = true;
                 document.getElementById("tour3M1winner-container").style.display = "block";
                 document.getElementById('tour3M1winner').textContent = "You Won By " + (tour3M1runToChaseUser - tour3M1compScore) + " Runs";
-                var updatedValueuser = tour3userpoints++;
-                localStorage.setItem('User Points', updatedValueuser);
+                tour3userpoints++;
+                
             }, 1000);
         }
 
@@ -3760,7 +3760,7 @@ function tour3M1bowlSecondR1() {
                 document.getElementById("tour3M1winner-container").style.display = "block";
                 document.getElementById('tour3M1winner').textContent = "Opponent Won By 1 Wicket";
                 tour3comppoints++;
-                //localStorage.setItem('Computer Points', updatedValuecomp);
+                
             }, 1000);
         }
     }
@@ -3785,7 +3785,7 @@ function tour3M1bowlSecondR1() {
                 document.getElementById("tour3M1winner-container").style.display = "block";
                 document.getElementById('tour3M1winner').textContent = "Opponent Won By 1 Wicket";
                 tour3comppoints++;
-                //localStorage.setItem('Computer Points', updatedValuecomp);
+                
             }, 1000);
         }
     }
@@ -3810,7 +3810,7 @@ function tour3M1bowlSecondR1() {
                 document.getElementById("tour3M1winner-container").style.display = "block";
                 document.getElementById('tour3M1winner').textContent = "Opponent Won By 1 Wicket";
                 tour3comppoints++;
-                //localStorage.setItem('Computer Points', updatedValuecomp);
+                
             }, 1000);
         }
     }
@@ -3835,7 +3835,7 @@ function tour3M1bowlSecondR1() {
                 document.getElementById("tour3M1winner-container").style.display = "block";
                 document.getElementById('tour3M1winner').textContent = "Opponent Won By 1 Wicket";
                 tour3comppoints++;
-                //localStorage.setItem('Computer Points', updatedValuecomp);
+                
             }, 1000);
         }
     }
@@ -3860,7 +3860,7 @@ function tour3M1bowlSecondR1() {
                 document.getElementById("tour3M1winner-container").style.display = "block";
                 document.getElementById('tour3M1winner').textContent = "Opponent Won By 1 Wicket";
                 tour3comppoints++;
-                //localStorage.setItem('Computer Points', updatedValuecomp);
+                
             }, 1000);
         }
     }
@@ -3899,7 +3899,7 @@ function tour3M1bowlSecondR2() {
                 document.getElementById("tour3M1winner-container").style.display = "block";
                 document.getElementById('tour3M1winner').textContent = "Opponent Won By 1 Wicket";
                 tour3comppoints++;
-                //localStorage.setItem('Computer Points', updatedValuecomp);
+                
             }, 1000);
         }
     }
@@ -3928,7 +3928,7 @@ function tour3M1bowlSecondR2() {
                 document.getElementById("tour3M1winner-container").style.display = "block";
                 document.getElementById('tour3M1winner').textContent = "Opponent Won By 1 Wicket";
                 tour3comppoints++;
-                //localStorage.setItem('Computer Points', updatedValuecomp);
+                
             }, 1000);
         } else if (tour3M1userScore == tour3M1compScore) {               //If runs are equal
             setTimeout(function () {
@@ -3959,8 +3959,8 @@ function tour3M1bowlSecondR2() {
                 document.getElementById("tour3M1R6").disabled = true;
                 document.getElementById("tour3M1winner-container").style.display = "block";
                 document.getElementById('tour3M1winner').textContent = "You Won By " + (tour3M1runToChaseUser - tour3M1compScore) + " Runs";
-                var updatedValueuser = tour3userpoints++;
-                localStorage.setItem('User Points', updatedValueuser);
+                tour3userpoints++;
+                
             }, 1000);
         }
 
@@ -3987,7 +3987,7 @@ function tour3M1bowlSecondR2() {
                 document.getElementById("tour3M1winner-container").style.display = "block";
                 document.getElementById('tour3M1winner').textContent = "Opponent Won By 1 Wicket";
                 tour3comppoints++;
-                //localStorage.setItem('Computer Points', updatedValuecomp);
+                
             }, 1000);
         }
     }
@@ -4012,7 +4012,7 @@ function tour3M1bowlSecondR2() {
                 document.getElementById("tour3M1winner-container").style.display = "block";
                 document.getElementById('tour3M1winner').textContent = "Opponent Won By 1 Wicket";
                 tour3comppoints++;
-                //localStorage.setItem('Computer Points', updatedValuecomp);
+                
             }, 1000);
         }
     }
@@ -4037,7 +4037,7 @@ function tour3M1bowlSecondR2() {
                 document.getElementById("tour3M1winner-container").style.display = "block";
                 document.getElementById('tour3M1winner').textContent = "Opponent Won By 1 Wicket";
                 tour3comppoints++;
-                //localStorage.setItem('Computer Points', updatedValuecomp);
+                
             }, 1000);
         }
     }
@@ -4062,7 +4062,7 @@ function tour3M1bowlSecondR2() {
                 document.getElementById("tour3M1winner-container").style.display = "block";
                 document.getElementById('tour3M1winner').textContent = "Opponent Won By 1 Wicket";
                 tour3comppoints++;
-                //localStorage.setItem('Computer Points', updatedValuecomp);
+                
             }, 1000);
         }
     }
@@ -4101,7 +4101,7 @@ function tour3M1bowlSecondR3() {
                 document.getElementById("tour3M1winner-container").style.display = "block";
                 document.getElementById('tour3M1winner').textContent = "Opponent Won By 1 Wicket";
                 tour3comppoints++;
-                //localStorage.setItem('Computer Points', updatedValuecomp);
+                
             }, 1000);
         }
     }
@@ -4126,7 +4126,7 @@ function tour3M1bowlSecondR3() {
                 document.getElementById("tour3M1winner-container").style.display = "block";
                 document.getElementById('tour3M1winner').textContent = "Opponent Won By 1 Wicket";
                 tour3comppoints++;
-                //localStorage.setItem('Computer Points', updatedValuecomp);
+                
             }, 1000);
         }
 
@@ -4156,7 +4156,7 @@ function tour3M1bowlSecondR3() {
                 document.getElementById("tour3M1winner-container").style.display = "block";
                 document.getElementById('tour3M1winner').textContent = "Opponent Won By 1 Wicket";
                 tour3comppoints++;
-                //localStorage.setItem('Computer Points', updatedValuecomp);
+                
             }, 1000);
         } else if (tour3M1userScore == tour3M1compScore) {               //If runs are equal
             setTimeout(function () {
@@ -4187,8 +4187,8 @@ function tour3M1bowlSecondR3() {
                 document.getElementById("tour3M1R6").disabled = true;
                 document.getElementById("tour3M1winner-container").style.display = "block";
                 document.getElementById('tour3M1winner').textContent = "You Won By " + (tour3M1runToChaseUser - tour3M1compScore) + " Runs";
-                var updatedValueuser = tour3userpoints++;
-                localStorage.setItem('User Points', updatedValueuser);
+                tour3userpoints++;
+                
             }, 1000);
         }
 
@@ -4214,7 +4214,7 @@ function tour3M1bowlSecondR3() {
                 document.getElementById("tour3M1winner-container").style.display = "block";
                 document.getElementById('tour3M1winner').textContent = "Opponent Won By 1 Wicket";
                 tour3comppoints++;
-                //localStorage.setItem('Computer Points', updatedValuecomp);
+                
             }, 1000);
         }
     }
@@ -4239,7 +4239,7 @@ function tour3M1bowlSecondR3() {
                 document.getElementById("tour3M1winner-container").style.display = "block";
                 document.getElementById('tour3M1winner').textContent = "Opponent Won By 1 Wicket";
                 tour3comppoints++;
-                //localStorage.setItem('Computer Points', updatedValuecomp);
+                
             }, 1000);
         }
     }
@@ -4264,7 +4264,7 @@ function tour3M1bowlSecondR3() {
                 document.getElementById("tour3M1winner-container").style.display = "block";
                 document.getElementById('tour3M1winner').textContent = "Opponent Won By 1 Wicket";
                 tour3comppoints++;
-                //localStorage.setItem('Computer Points', updatedValuecomp);
+                
             }, 1000);
         }
     }
@@ -4303,7 +4303,7 @@ function tour3M1bowlSecondR4() {
                 document.getElementById("tour3M1winner-container").style.display = "block";
                 document.getElementById('tour3M1winner').textContent = "Opponent Won By 1 Wicket";
                 tour3comppoints++;
-                //localStorage.setItem('Computer Points', updatedValuecomp);
+                
             }, 1000);
         }
     }
@@ -4329,7 +4329,7 @@ function tour3M1bowlSecondR4() {
                 document.getElementById("tour3M1winner-container").style.display = "block";
                 document.getElementById('tour3M1winner').textContent = "Opponent Won By 1 Wicket";
                 tour3comppoints++;
-                //localStorage.setItem('Computer Points', updatedValuecomp);
+                
             }, 1000);
         }
 
@@ -4356,7 +4356,7 @@ function tour3M1bowlSecondR4() {
                 document.getElementById("tour3M1winner-container").style.display = "block";
                 document.getElementById('tour3M1winner').textContent = "Opponent Won By 1 Wicket";
                 tour3comppoints++;
-                //localStorage.setItem('Computer Points', updatedValuecomp);
+                
             }, 1000);
         }
 
@@ -4386,7 +4386,7 @@ function tour3M1bowlSecondR4() {
                 document.getElementById("tour3M1winner-container").style.display = "block";
                 document.getElementById('tour3M1winner').textContent = "Opponent Won By 1 Wicket";
                 tour3comppoints++;
-                //localStorage.setItem('Computer Points', updatedValuecomp);
+                
             }, 1000);
         } else if (tour3M1userScore == tour3M1compScore) {               //If runs are equal
             setTimeout(function () {
@@ -4417,8 +4417,8 @@ function tour3M1bowlSecondR4() {
                 document.getElementById("tour3M1R6").disabled = true;
                 document.getElementById("tour3M1winner-container").style.display = "block";
                 document.getElementById('tour3M1winner').textContent = "You Won By " + (tour3M1runToChaseUser - tour3M1compScore) + " Runs";
-                var updatedValueuser = tour3userpoints++;
-                localStorage.setItem('User Points', updatedValueuser);
+                tour3userpoints++;
+                
             }, 1000);
         }
 
@@ -4444,7 +4444,7 @@ function tour3M1bowlSecondR4() {
                 document.getElementById("tour3M1winner-container").style.display = "block";
                 document.getElementById('tour3M1winner').textContent = "Opponent Won By 1 Wicket";
                 tour3comppoints++;
-                //localStorage.setItem('Computer Points', updatedValuecomp);
+                
             }, 1000);
         }
     }
@@ -4469,7 +4469,7 @@ function tour3M1bowlSecondR4() {
                 document.getElementById("tour3M1winner-container").style.display = "block";
                 document.getElementById('tour3M1winner').textContent = "Opponent Won By 1 Wicket";
                 tour3comppoints++;
-                //localStorage.setItem('Computer Points', updatedValuecomp);
+                
             }, 1000);
         }
     }
@@ -4508,7 +4508,7 @@ function tour3M1bowlSecondR5() {
                 document.getElementById("tour3M1winner-container").style.display = "block";
                 document.getElementById('tour3M1winner').textContent = "Opponent Won By 1 Wicket";
                 tour3comppoints++;
-                //localStorage.setItem('Computer Points', updatedValuecomp);
+                
             }, 1000);
         }
     }
@@ -4533,7 +4533,7 @@ function tour3M1bowlSecondR5() {
                 document.getElementById("tour3M1winner-container").style.display = "block";
                 document.getElementById('tour3M1winner').textContent = "Opponent Won By 1 Wicket";
                 tour3comppoints++;
-                //localStorage.setItem('Computer Points', updatedValuecomp);
+                
             }, 1000);
         }
 
@@ -4560,7 +4560,7 @@ function tour3M1bowlSecondR5() {
                 document.getElementById("tour3M1winner-container").style.display = "block";
                 document.getElementById('tour3M1winner').textContent = "Opponent Won By 1 Wicket";
                 tour3comppoints++;
-                //localStorage.setItem('Computer Points', updatedValuecomp);
+                
             }, 1000);
         }
 
@@ -4586,7 +4586,7 @@ function tour3M1bowlSecondR5() {
                 document.getElementById("tour3M1winner-container").style.display = "block";
                 document.getElementById('tour3M1winner').textContent = "Opponent Won By 1 Wicket";
                 tour3comppoints++;
-                //localStorage.setItem('Computer Points', updatedValuecomp);
+                
             }, 1000);
         }
 
@@ -4616,7 +4616,7 @@ function tour3M1bowlSecondR5() {
                 document.getElementById("tour3M1winner-container").style.display = "block";
                 document.getElementById('tour3M1winner').textContent = "Opponent Won By 1 Wicket";
                 tour3comppoints++;
-                //localStorage.setItem('Computer Points', updatedValuecomp);
+                
             }, 1000);
         } else if (tour3M1userScore == tour3M1compScore) {               //If runs are equal
             setTimeout(function () {
@@ -4647,8 +4647,8 @@ function tour3M1bowlSecondR5() {
                 document.getElementById("tour3M1R6").disabled = true;
                 document.getElementById("tour3M1winner-container").style.display = "block";
                 document.getElementById('tour3M1winner').textContent = "You Won By " + (tour3M1runToChaseUser - tour3M1compScore) + " Runs";
-                var updatedValueuser = tour3userpoints++;
-                localStorage.setItem('Computer Points', updatedValueuser);
+                tour3userpoints++;
+                
             }, 1000);
         }
 
@@ -4675,7 +4675,7 @@ function tour3M1bowlSecondR5() {
                 document.getElementById("tour3M1winner-container").style.display = "block";
                 document.getElementById('tour3M1winner').textContent = "Opponent Won By 1 Wicket";
                 tour3comppoints++;
-                //localStorage.setItem('Computer Points', updatedValuecomp);
+                
             }, 1000);
         }
     }
@@ -4714,7 +4714,7 @@ function tour3M1bowlSecondR6() {
                 document.getElementById("tour3M1winner-container").style.display = "block";
                 document.getElementById('tour3M1winner').textContent = "Opponent Won By 1 Wicket";
                 tour3comppoints++;
-                //localStorage.setItem('Computer Points', updatedValuecomp);
+                
             }, 1000);
         }
     }
@@ -4739,7 +4739,7 @@ function tour3M1bowlSecondR6() {
                 document.getElementById("tour3M1winner-container").style.display = "block";
                 document.getElementById('tour3M1winner').textContent = "Opponent Won By 1 Wicket";
                 tour3comppoints++;
-                //localStorage.setItem('Computer Points', updatedValuecomp);
+                
             }, 1000);
         }
 
@@ -4766,7 +4766,7 @@ function tour3M1bowlSecondR6() {
                 document.getElementById("tour3M1winner-container").style.display = "block";
                 document.getElementById('tour3M1winner').textContent = "Opponent Won By 1 Wicket";
                 tour3comppoints++;
-                //localStorage.setItem('Computer Points', updatedValuecomp);
+                
             }, 1000);
         }
 
@@ -4792,7 +4792,7 @@ function tour3M1bowlSecondR6() {
                 document.getElementById("tour3M1winner-container").style.display = "block";
                 document.getElementById('tour3M1winner').textContent = "Opponent Won By 1 Wicket";
                 tour3comppoints++;
-                //localStorage.setItem('Computer Points', updatedValuecomp);
+                
             }, 1000);
         }
 
@@ -4818,7 +4818,7 @@ function tour3M1bowlSecondR6() {
                 document.getElementById("tour3M1winner-container").style.display = "block";
                 document.getElementById('tour3M1winner').textContent = "Opponent Won By 1 Wicket";
                 tour3comppoints++;
-                //localStorage.setItem('Computer Points', updatedValuecomp);
+                
             }, 1000);
         }
 
@@ -4848,7 +4848,7 @@ function tour3M1bowlSecondR6() {
                 document.getElementById("tour3M1winner-container").style.display = "block";
                 document.getElementById('tour3M1winner').textContent = "Opponent Won By 1 Wicket";
                 tour3comppoints++;
-                //localStorage.setItem('Computer Points', updatedValuecomp);
+                
             }, 1000);
         } else if (tour3M1userScore == tour3M1compScore) {               //If runs are equal
             setTimeout(function () {
@@ -4879,8 +4879,8 @@ function tour3M1bowlSecondR6() {
                 document.getElementById("tour3M1R6").disabled = true;
                 document.getElementById("tour3M1winner-container").style.display = "block";
                 document.getElementById('tour3M1winner').textContent = "You Won By " + (tour3M1runToChaseUser - tour3M1compScore) + " Runs";
-                var updatedValueuser = tour3userpoints++;
-                localStorage.setItem('User Points', updatedValueuser);
+                tour3userpoints++;
+                
             }, 1000);
         }
 
