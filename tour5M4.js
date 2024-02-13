@@ -1823,8 +1823,7 @@ function tour5M4batSecondR1() {
         document.getElementById('tour5M4num-A3').style.display = "none";
         document.getElementById('tour5M4num-A4').style.display = "none";
         document.getElementById('tour5M4num-A5').style.display = "none";
-        document.getElementById('tour5M4num-A6').style.display = "none";
-        tour5M4userScore = tour5M4userScore + 1;
+        document.getElementById('tour5M4num-A6').style.display = "none"
         document.getElementById('tour5M4userRun').textContent = tour5M4userScore;
         var tour5M4runToChaseComp = tour5M4compScore + 1;
         if (tour5M4runToChaseComp <= tour5M4userScore) {                    //If the user chased the target
@@ -1892,7 +1891,7 @@ function tour5M4batSecondR1() {
         document.getElementById('tour5M4userRun').textContent = tour5M4userScore;
 
         var tour5M4runToChaseComp = tour5M4compScore + 1;
-        if (tour5M4runToChaseComp < tour5M4userScore) { //If the user chased the target
+        if (tour5M4runToChaseComp <= tour5M4userScore) { //If the user chased the target
             setTimeout(function () {
                 document.getElementById("tour5M4matchEnd").style.display = "block";
                 document.getElementById("tour5M4userWins").style.display = "block";
@@ -1924,7 +1923,7 @@ function tour5M4batSecondR1() {
         document.getElementById('tour5M4userRun').textContent = tour5M4userScore;
 
         var tour5M4runToChaseComp = tour5M4compScore + 1;
-        if (tour5M4runToChaseComp < tour5M4userScore) { //If the user chased the target
+        if (tour5M4runToChaseComp <= tour5M4userScore) { //If the user chased the target
             setTimeout(function () {
                 document.getElementById("tour5M4matchEnd").style.display = "block";
                 document.getElementById("tour5M4userWins").style.display = "block";
@@ -1955,7 +1954,7 @@ function tour5M4batSecondR1() {
         document.getElementById('tour5M4userRun').textContent = tour5M4userScore;
 
         var tour5M4runToChaseComp = tour5M4compScore + 1;
-        if (tour5M4runToChaseComp < tour5M4userScore) { //If the user chased the target
+        if (tour5M4runToChaseComp <= tour5M4userScore) { //If the user chased the target
             setTimeout(function () {
                 document.getElementById("tour5M4matchEnd").style.display = "block";
                 document.getElementById("tour5M4userWins").style.display = "block";
@@ -1986,7 +1985,7 @@ function tour5M4batSecondR1() {
         document.getElementById('tour5M4userRun').textContent = tour5M4userScore;
 
         var tour5M4runToChaseComp = tour5M4compScore + 1;
-        if (tour5M4runToChaseComp < tour5M4userScore) { //If the user chased the target
+        if (tour5M4runToChaseComp <= tour5M4userScore) { //If the user chased the target
             setTimeout(function () {
                 document.getElementById("tour5M4matchEnd").style.display = "block";
                 document.getElementById("tour5M4userWins").style.display = "block";
@@ -2012,7 +2011,7 @@ function tour5M4batSecondR1() {
         document.getElementById('tour5M4userRun').textContent = tour5M4userScore;
 
         var tour5M4runToChaseComp = tour5M4compScore + 1;
-        if (tour5M4runToChaseComp < tour5M4userScore) { //If the user chased the target
+        if (tour5M4runToChaseComp <= tour5M4userScore) { //If the user chased the target
             setTimeout(function () {
                 document.getElementById("tour5M4matchEnd").style.display = "block";
                 document.getElementById("tour5M4userWins").style.display = "block";
@@ -3677,7 +3676,6 @@ function tour5M4bowlSecondR1() {
         document.getElementById('tour5M4num-A4').style.display = "none";
         document.getElementById('tour5M4num-A5').style.display = "none";
         document.getElementById('tour5M4num-A6').style.display = "none";
-        var tour5M4runToChaseUser = tour5M4userScore + 1;
         if (tour5M4runToChaseUser <= tour5M4compScore) {                       //If computer chased the target
             setTimeout(function () {
                 document.getElementById("tour5M4matchEnd").style.display = "block";
