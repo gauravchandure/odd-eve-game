@@ -1824,11 +1824,11 @@ function batSecondR1() {
     document.getElementById('num-B5').style.display = "none";
     document.getElementById('num-B6').style.display = "none";
     document.getElementById('userRunTable').style.marginLeft = "0%";
-    var halfCentury = false;
-    if (userScore >= 50 && halfCentury == false) {
-        document.getElementById("halfCenturyUser").style.display = "block";
-        halfCentury == true;
-    }
+    // var halfCentury = false;
+    // if (userScore >= 50 && halfCentury == false) {
+    //     document.getElementById("halfCenturyUser").style.display = "block";
+    //     halfCentury == true;
+    // }
     if (x == 1) {
         document.getElementById('compRunTable').style.marginLeft = "-380%";
         document.getElementById('fist-1').style.display = "none";
@@ -1838,7 +1838,6 @@ function batSecondR1() {
         document.getElementById('num-A4').style.display = "none";
         document.getElementById('num-A5').style.display = "none";
         document.getElementById('num-A6').style.display = "none";
-        userScore = userScore + 1;
         document.getElementById('userRun').textContent = userScore;
         var runToChaseComp = compScore + 1;
         if (runToChaseComp <= userScore) {                    //If the user chased the target
@@ -1896,7 +1895,7 @@ function batSecondR1() {
         document.getElementById('userRun').textContent = userScore;
 
         var runToChaseComp = compScore + 1;
-        if (runToChaseComp < userScore) { //If the user chased the target
+        if (runToChaseComp <= userScore) { //If the user chased the target
             setTimeout(function () {
                 document.getElementById("matchEnd").style.display = "block";
                 document.getElementById("userWins").style.display = "block";
@@ -1924,7 +1923,7 @@ function batSecondR1() {
         document.getElementById('userRun').textContent = userScore;
 
         var runToChaseComp = compScore + 1;
-        if (runToChaseComp < userScore) { //If the user chased the target
+        if (runToChaseComp <= userScore) { //If the user chased the target
             setTimeout(function () {
                 document.getElementById("matchEnd").style.display = "block";
                 document.getElementById("userWins").style.display = "block";
@@ -1951,7 +1950,7 @@ function batSecondR1() {
         document.getElementById('userRun').textContent = userScore;
 
         var runToChaseComp = compScore + 1;
-        if (runToChaseComp < userScore) { //If the user chased the target
+        if (runToChaseComp <= userScore) { //If the user chased the target
             setTimeout(function () {
                 document.getElementById("matchEnd").style.display = "block";
                 document.getElementById("userWins").style.display = "block";
@@ -1978,7 +1977,7 @@ function batSecondR1() {
         document.getElementById('userRun').textContent = userScore;
 
         var runToChaseComp = compScore + 1;
-        if (runToChaseComp < userScore) { //If the user chased the target
+        if (runToChaseComp <= userScore) { //If the user chased the target
             setTimeout(function () {
                 document.getElementById("matchEnd").style.display = "block";
                 document.getElementById("userWins").style.display = "block";
@@ -2000,7 +1999,7 @@ function batSecondR1() {
         document.getElementById('userRun').textContent = userScore;
 
         var runToChaseComp = compScore + 1;
-        if (runToChaseComp < userScore) { //If the user chased the target
+        if (runToChaseComp <= userScore) { //If the user chased the target
             setTimeout(function () {
                 document.getElementById("matchEnd").style.display = "block";
                 document.getElementById("userWins").style.display = "block";
