@@ -4,6 +4,7 @@ function tour5Start() {
     document.getElementById("tour5-match").style.width = "35%";
     document.getElementById("tour5-match").style.marginTop = "0%";
     document.getElementById("tour-selection").style.display = "none";
+    document.getElementById("bg-audio").play();
 }
 
 function tour5M1start() {
@@ -1835,7 +1836,6 @@ function tour5M1batSecondR1() {
         document.getElementById('tour5M1num-A4').style.display = "none";
         document.getElementById('tour5M1num-A5').style.display = "none";
         document.getElementById('tour5M1num-A6').style.display = "none";
-        tour5M1userScore = tour5M1userScore + 1;
         document.getElementById('tour5M1userRun').textContent = tour5M1userScore;
         var tour5M1runToChaseComp = tour5M1compScore + 1;
         if (tour5M1runToChaseComp <= tour5M1userScore) {                    //If the user chased the target
@@ -1903,7 +1903,7 @@ function tour5M1batSecondR1() {
         document.getElementById('tour5M1userRun').textContent = tour5M1userScore;
 
         var tour5M1runToChaseComp = tour5M1compScore + 1;
-        if (tour5M1runToChaseComp < tour5M1userScore) { //If the user chased the target
+        if (tour5M1runToChaseComp <= tour5M1userScore) { //If the user chased the target
             setTimeout(function () {
                 document.getElementById("tour5M1matchEnd").style.display = "block";
                 document.getElementById("tour5M1userWins").style.display = "block";
@@ -1935,7 +1935,7 @@ function tour5M1batSecondR1() {
         document.getElementById('tour5M1userRun').textContent = tour5M1userScore;
 
         var tour5M1runToChaseComp = tour5M1compScore + 1;
-        if (tour5M1runToChaseComp < tour5M1userScore) { //If the user chased the target
+        if (tour5M1runToChaseComp <= tour5M1userScore) { //If the user chased the target
             setTimeout(function () {
                 document.getElementById("tour5M1matchEnd").style.display = "block";
                 document.getElementById("tour5M1userWins").style.display = "block";
@@ -1966,7 +1966,7 @@ function tour5M1batSecondR1() {
         document.getElementById('tour5M1userRun').textContent = tour5M1userScore;
 
         var tour5M1runToChaseComp = tour5M1compScore + 1;
-        if (tour5M1runToChaseComp < tour5M1userScore) { //If the user chased the target
+        if (tour5M1runToChaseComp <= tour5M1userScore) { //If the user chased the target
             setTimeout(function () {
                 document.getElementById("tour5M1matchEnd").style.display = "block";
                 document.getElementById("tour5M1userWins").style.display = "block";
@@ -1997,7 +1997,7 @@ function tour5M1batSecondR1() {
         document.getElementById('tour5M1userRun').textContent = tour5M1userScore;
 
         var tour5M1runToChaseComp = tour5M1compScore + 1;
-        if (tour5M1runToChaseComp < tour5M1userScore) { //If the user chased the target
+        if (tour5M1runToChaseComp <= tour5M1userScore) { //If the user chased the target
             setTimeout(function () {
                 document.getElementById("tour5M1matchEnd").style.display = "block";
                 document.getElementById("tour5M1userWins").style.display = "block";
@@ -2023,7 +2023,7 @@ function tour5M1batSecondR1() {
         document.getElementById('tour5M1userRun').textContent = tour5M1userScore;
 
         var tour5M1runToChaseComp = tour5M1compScore + 1;
-        if (tour5M1runToChaseComp < tour5M1userScore) { //If the user chased the target
+        if (tour5M1runToChaseComp <= tour5M1userScore) { //If the user chased the target
             setTimeout(function () {
                 document.getElementById("tour5M1matchEnd").style.display = "block";
                 document.getElementById("tour5M1userWins").style.display = "block";
